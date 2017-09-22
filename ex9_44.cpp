@@ -1,4 +1,4 @@
-// ex9_44.cpp : �������̨Ӧ�ó������ڵ㡣
+// isEnd解决了尾部边界问题。
 //
 
 #include "stdafx.h"
