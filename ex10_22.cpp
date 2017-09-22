@@ -1,6 +1,7 @@
-//1.¼ÇµÃÒªÉùÃ÷using namespace  std::placeholder;
-//2.bind¾ÍÊÇ½«º¯ÊıµÄ²¿·Ö²ÎÊıÓÃÖµÌîÉÏ£¬Ê¹Æä±ä³ÉÓµÓĞ²»Í¬²ÎÊı±íµÄ¡°ÏàÍ¬¡±º¯Êı¡£
-//3.size_type±ØĞëÎªstring::size_type¡£
+//1.è®°å¾—è¦å£°æ˜using namespace  std::placeholder;
+//2.bindå°±æ˜¯å°†å‡½æ•°çš„éƒ¨åˆ†å‚æ•°ç”¨å€¼å¡«ä¸Šï¼Œä½¿å…¶å˜æˆæ‹¥æœ‰ä¸åŒå‚æ•°è¡¨çš„â€œç›¸åŒâ€å‡½æ•°ã€‚
+//3.size_typeå¿…é¡»ä¸ºstring::size_typeã€‚
+//
 
 #include "stdafx.h"
 #include <algorithm>
