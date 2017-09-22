@@ -1,4 +1,5 @@
 // 说明只有inserter位置会恢复原位置，而front_inserter和back_inserter会变位置。
+// 空容器的begin和end迭代器都存在，但是不指向任何值。
 //
 
 #include "stdafx.h"
@@ -8,6 +9,7 @@
 #include<iostream>
 #include<numeric>
 #include<iterator>
+#include<vector>
 
 using namespace std;
 
@@ -18,17 +20,14 @@ void printList(const list<int> &l){
 	cout << endl;
 }
 
+
+
 int main()
 {
-	list < int> lst = { 1,2,3,4 };
-	list < int> lst2,lst3,lst4;
-	copy(lst.cbegin(), lst.cend(), front_inserter(lst2));
-	copy(lst.cbegin(), lst.cend(), inserter(lst3, lst3.begin()));
-	copy(lst.cbegin(), lst.cend(), back_inserter(lst4));
-	
-	printList(lst2);
-	printList(lst3);
-	printList(lst4);
+	vector<int> vec{ 1,2,3,3,4,5,5,6,7};
+	list<int> lst;
+	unique_copy(vec.begin(), vec.end(), inserter(lst,lst.begin()));
+	printList(lst);
 	
 	return 0;
 }
