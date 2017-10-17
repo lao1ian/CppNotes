@@ -1,4 +1,4 @@
-// getlineÊäÈë³¬³¤Ê±»áÊ¹ºóÃæµÄcinÎŞ·¨Ö´ĞĞ¡£
+// istream::getlineè¾“å…¥çš„å­—ç¬¦ä¸²æ¯”åˆ†é…çš„ç©ºé—´é•¿ï¼Œä¼šè®¾ç½®å¤±æ•ˆä½ï¼ˆfailbitï¼‰,é˜»æ–­è¾“å…¥ã€‚
 //
 
 #include "stdafx.h"
@@ -16,7 +16,7 @@ int main()
 	cout << "The length of the string: ";
 	int size;
 	cin >> size;
-	cin.ignore();              // ´Ë´¦»»³Écin.get()Òà¿É¡£
+	cin.ignore();              // æ­¤å¤„æ¢æˆcin.get()äº¦å¯ã€‚
 	cout << "Plz enter the string: ";
 	char *ca = new char[size + 1];
 	cin.get(ca, size + 1);
