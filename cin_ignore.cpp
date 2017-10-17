@@ -1,6 +1,6 @@
-// 1. ¹ØÓÚÕâ¸ösync·½·¨ÔÚ²»Í¬µÄ±àÒëÆ÷ÖÐÓÐ²»Í¬µÄÊµÏÖ¡£VCÖÐÈ·Êµ¿ÉÒÔÇå¿ÕcinµÄ»º´æ£¬µ«ÊÇÔÚGNU(ºÍvs2017)ÖÐ£¬²»ÐÐ¡£
-//    Òò´ËÊ¹ÓÃsync·½·¨ÊÇÃ»ÓÐÍ¨ÓÃÐÔµÄ¡£ignore²ÅÊÇ×î¿É¿¿µÄÇå³þ»º´æµÄ·½·¨¡£
-// 2. clear¸ü¸ÄÁ÷µÄÌõ¼þ×´Ì¬ÖÁÎ´´íÎó×´Ì¬ºó£¬¶ÔÁ÷µÄ²Ù×÷²ÅÓÐÐ§¡£
+// 1. å…³äºŽè¿™ä¸ªsyncæ–¹æ³•åœ¨ä¸åŒçš„ç¼–è¯‘å™¨ä¸­æœ‰ä¸åŒçš„å®žçŽ°ã€‚VCä¸­ç¡®å®žå¯ä»¥æ¸…ç©ºcinçš„ç¼“å­˜ï¼Œä½†æ˜¯åœ¨GNU(å’Œvs2017)ä¸­ï¼Œä¸è¡Œã€‚
+//    å› æ­¤ä½¿ç”¨syncæ–¹æ³•æ˜¯æ²¡æœ‰é€šç”¨æ€§çš„ã€‚ignoreæ‰æ˜¯æœ€å¯é çš„æ¸…æ¥šç¼“å­˜çš„æ–¹æ³•ã€‚
+// 2. clearæ›´æ”¹æµçš„æ¡ä»¶çŠ¶æ€è‡³æœªé”™è¯¯çŠ¶æ€åŽï¼Œå¯¹æµçš„æ“ä½œæ‰æœ‰æ•ˆã€‚
 
 #include "stdafx.h"
 #include <map>
